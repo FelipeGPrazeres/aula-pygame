@@ -11,18 +11,18 @@ LARGURAJANELA = 600
 ALTURAJANELA = 600
 CORTEXTO = (255, 255, 255) # Branco
 QPS = 60 # quadros por segundo
-TAMMINIMO = 50 # tamanho mínimo do asteroide
-TAMMAXIMO = 100 # tamanho máximo do asteroide
+TAMMINIMO = 20 # tamanho mínimo do asteroide
+TAMMAXIMO = 50 # tamanho máximo do asteroide
 VELMINIMA = 1 # velocidade mínima do asteroide
 VELMAXIMA = 8 # velocidade máxima do asteroide
 ITERACOES = 6 # número de iterações antes de criar um novo asteroide
 VELJOGADOR = 5 # velocidade da nave
 VELRAIO = (0,-20) # velocidade do raio
 
-LARGURANAVE = 200
+LARGURANAVE = 80
 ALTURANAVE = 90
-LARGURARAIO = 20
-ALTURARAIO = 30
+LARGURARAIO = 10000
+ALTURARAIO = 300
 
 # Redimensionando as imagens
 imagemFundo = pygame.transform.scale(imagemFundo, (LARGURAJANELA, ALTURAJANELA))
